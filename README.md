@@ -58,4 +58,6 @@ git checkout -b my-feature
 ./test_py.py experiment
 ```
 See the created tags:
-`git tag`
+```
+git tag
+```
