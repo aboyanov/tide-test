@@ -1,7 +1,7 @@
 # Tide - Senior DevOps Engineer Test
 Script that interact with a git tags
 
-![](https://github.com/aboyanov/tide-test.git/tide_logo.png)
+![](https://github.com/aboyanov/tide-test/blob/master/tide_logo.png)
 
 Just for my own fun, I've completed the task using both: Python and Bash
 > "It should have as few external dependencies as possible"
