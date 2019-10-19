@@ -3,13 +3,13 @@
 ![](https://github.com/aboyanov/tide-test/blob/master/tide_logo.png)
 
 ## The task:
-> Using the language of your choice, write a script that when run from inside a git repository:
-● Will create a git tag containing the current time and date.
-● If the current branch is not master will create another git tag containing the name of
-the current branch.
-● If supplied with an optional parameter will also create a git tag containing the value
-of that parameter.
-● Will push all created tags to `origin`.
+```
+Using the language of your choice, write a script that when run from inside a git repository:
+  ● Will create a git tag containing the current time and date.
+  ● If the current branch is not master will create another git tag containing the name of the current branch.
+  ● If supplied with an optional parameter will also create a git tag containing the value of that parameter.
+  ● Will push all created tags to `origin`.
+```
 
 ------------
 Just for my own fun, I've completed the task using both: Python and Bash
