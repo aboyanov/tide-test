@@ -43,7 +43,16 @@ Example usage:
 git checkout -b my-feature
 ./test_bash.sh experiment
 ```
-You will be prompted to provide your git credentials next, in order for the script to push the created tags to `origin`
+You will be prompted to provide your git credentials next, in order for the script to push the created tags to `origin`.
+Note: if you follow the steps, it will try to push to this repo :)
+If you want to use it in your repo, move the script /to/your/git/repo
+```
+mv ./test_bash.sh /path/to/your/git/repo
+```
+And then execute it, the same way like before:
+```
+./test_bash.sh optional-arg
+```
 
 Would result in a set of tags like this:
 ```
@@ -52,10 +61,16 @@ my-feature
 experiment
 ```
 ### Python
+The same applies for the python script like for the bash
 Example usage:
 ```
-git checkout -b my-feature
+git checkout master
 ./test_py.py experiment
+```
+Would result in a set of tags like this, because when you are on the master branch, it won't create a tag with the current branch name:
+```
+2019-01-09-14-24-22 (i.e. the current timestamp)
+experiment
 ```
 See the created tags:
 ```
