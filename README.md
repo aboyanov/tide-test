@@ -1,5 +1,4 @@
 # Tide - Senior DevOps Engineer Test
-Script that interact with a git tags
 
 ![](https://github.com/aboyanov/tide-test/blob/master/tide_logo.png)
 
@@ -38,4 +37,14 @@ experiment
 ```
 
 ### Bash
-./test_bash.sh
+E.g.
+```
+git checkout -b my-feature
+./test_bash.sh experiment
+```
+Would result in a set of tags like this:
+```
+my-feature
+2019-01-09-14-24-22 (i.e. the current timestamp)
+experiment
+```
