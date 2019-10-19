@@ -46,6 +46,7 @@ git checkout -b my-feature
 You will be prompted to provide your git credentials next, in order for the script to push the created tags to `origin`.
 
 Note: if you follow the steps, it will try to push to this repo :)
+
 If you want to use it in your repo, move the script /to/your/git/repo
 ```
 mv ./test_bash.sh /path/to/your/git/repo
