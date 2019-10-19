@@ -21,7 +21,8 @@ So the **Bash** script here is the winner
 
 ## Prerequisites:
 * Install: git and python3
-E.g.: Debian/Ubuntu Linux based system
+
+  E.g.: Debian/Ubuntu Linux based system
 ```
 sudo apt-get update; \
 sudo apt-get upgrade; \
@@ -43,6 +44,7 @@ git checkout -b my-feature
 ./test_bash.sh experiment
 ```
 You will be prompted to provide your git credentials next, in order for the script to push the created tags to `origin`
+
 Would result in a set of tags like this:
 ```
 my-feature
