@@ -69,7 +69,7 @@ Example usage:
 git checkout master
 ./test_py.py experiment
 ```
-Would result in a set of tags like this, because it creates a tag with the name of the branch, only if it is not master!:
+Would result in a set of tags like this, because it creates a tag with the name of the current branch, only if it is not master!:
 ```
 2019-01-09-14-24-22 (i.e. the current timestamp)
 experiment
