@@ -47,11 +47,11 @@ You will be prompted to provide your git credentials next, in order for the scri
 
 Note: if you follow the steps, it will try to push to this repo :)
 
-If you want to use it in your repo, move the script /to/your/git/repo
+If you want to use it in your repo, copy the script /to/your/git/repo
 ```
-mv ./test_bash.sh /path/to/your/git/repo
+cp ./test_bash.sh /path/to/your/git/repo
 ```
-And then execute it, the same way like before:
+And then execute it from within your repo like:
 ```
 ./test_bash.sh experiment
 ```
@@ -70,7 +70,7 @@ Example usage:
 git checkout master
 ./test_py.py experiment
 ```
-Would result in a set of tags like this, because it creates a tag with the name of the current branch, only if it is not master!:
+Would result in a set of tags like this, because it creates a tag with the name of the current branch, only if it is not `master`:
 ```
 2019-01-09-14-24-22 (i.e. the current timestamp)
 experiment
